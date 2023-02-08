@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_check_list"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/payment"
+        android:icon="@drawable/ic_close"
+        android:title="Payment" />
+
+
+    <item
+        android:id="@+id/service"
+        android:icon="@drawable/ic_menu"
+        android:title="Service" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_note"
+        android:title="Profile" />
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uz.gita.quizapps" >
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quiz"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/quiz"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApp" >
+<!--        <activity-->
+<!--            android:name=".MenuActivity"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name="uz.gita.quizapp.dialogexit"
+            android:exported="false" />
+        <activity
+            android:name="uz.gita.quizapp.SavollarActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.gita.quizapp.InfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.gita.quizapp.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="uz.gita.quizapp.GeogrophyActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.gita.quizapp.PhyisicActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.gita.quizapp.GeometryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.gita.quizapp.Fizika2Activity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.gita.quizapp.EnglishActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.gita.quizapp.DrammaActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable-v24/effekt2.xml" value="0.134" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/appbar_back.xml" value="0.1505" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/background.xml" value="0.1505" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/background2.xml" value="0.1505" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/background_button.xml" value="0.148" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/btn_click.xml" value="0.1505" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/btn_click2.xml" value="0.1505" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/btn_click_next.xml" value="0.148" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/eff.xml" value="0.134" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/effekt.xml" value="0.134" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.134" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.134" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.134" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/ic_baseline_language_24.xml" value="0.134" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/ic_check_list.xml" value="0.219" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.134" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.134" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/ic_menu.xml" value="0.219" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/drawable/ic_note.xml" value="0.219" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout-v23/activity_customdialog.xml" value="0.17527173913043478" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activitiy_menu.xml" value="0.2" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_customdialog.xml" value="0.176" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_dialogexit.xml" value="0.18206521739130435" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_info.xml" value="0.18206521739130435" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_main_dramma.xml" value="0.17527173913043478" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_main_english.xml" value="0.17527173913043478" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_main_fizika.xml" value="0.2" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_main_fizika2.xml" value="0.17527173913043478" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_main_geografiya.xml" value="0.18206521739130435" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_main_geometriya.xml" value="0.2" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_main_nav.xml" value="0.264" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_savollar.xml" value="0.2" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/activity_splash.xml" value="0.17527173913043478" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/header_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/layout/testdanchiqish.xml" value="0.264" />
+        <entry key="..\:/MyQuizApp/app/src/main/res/menu/bottom_nav.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

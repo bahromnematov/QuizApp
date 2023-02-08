@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">QUIZ ?</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="quizs">Top Quiz Categories</string>
+    <string name="matematika">Matematika</string>
+    <string name="informatica">Informatika</string>
+    <string name="geografiya">Geografiya</string>
+    <string name="fizika">Fizika</string>
+    <string name="english">English</string>
+    <string name="dramma">Dramma</string>
+    <string name="quetion">Quetion</string>
+    <string name="quit_quiz">Quit Quiz</string>
+    <string name="next">Next</string>
+    <string name="do_you_want_to_exit_the_n_test_process">Do you want to exit the\n test process ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="info_person">This mobile application was made by Nematov Bahrom in 3 lessons of the GITA Programmers\' Academy.</string>
+    <string name="phone" tools:ignore="TypographyDashes">For comments and suggestions,\n phone: 90–667-53-10</string>
+    <string name="about">About</string>
+    <string name="exit">exit</string>
+    <string name="quiz_result">Quiz Result</string>
+    <string name="your_score">Your Score</string>
+    <string name="new_quiz">New Quiz</string>
+    <string name="dasturdanchiqish">Do you want to exit the program?</string>
+    <string name="questions">Questions</string>
+</resources>

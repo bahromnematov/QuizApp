@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StyleKey">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_weight">0.3</item>
+
+    </style>
+</resources>

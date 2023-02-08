@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/dialog"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:background="#1D2444"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alegreya_sc"
+            android:gravity="center"
+            android:paddingTop="50dp"
+            android:text="@string/do_you_want_to_exit_the_n_test_process"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="60dp"
+            android:layout_weight="2"
+            android:gravity="center">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_click_next"
+                android:fontFamily="@font/alegreya_sc"
+                android:padding="10dp"
+                android:text="@string/no"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="46dp"
+                android:layout_height="0dp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_click"
+                android:fontFamily="@font/alegreya_sc"
+                android:text="@string/yes"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/dialog"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="#1D2444"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alegreya_sc"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:text="@string/quiz_result"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_score"
+                android:padding="6dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/textResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:padding="6dp"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                tools:text="2/10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnFinish"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_click"
+                android:fontFamily="@font/alegreya_sc"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:padding="8dp"
+                android:text="@string/exit"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+            <Space
+                android:layout_width="40dp"
+                android:layout_height="0dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnRestart"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_click_next"
+                android:fontFamily="@font/alegreya_sc"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:padding="10dp"
+                android:text="@string/new_quiz"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:targetApi="m"
+                tools:ignore="UnusedAttribute" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
